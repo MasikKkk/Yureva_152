@@ -1,0 +1,65 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  height: 300px;         
+}
+.slider {
+  position: relative;
+  width: 600px;
+  overflow: hidden;
+  border: 2px solid #333;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.prev-btn {
+  left: 10px;
+}
+.next-btn {
+  right: 10px;
+}
+html {
+  background-color: #3F4041;
+}
+.tg {
+  background-color: #2d2d2d;
+  border-radius: 2cm;
+}
+.container {
+  margin-top: 1cm;
+   margin-bottom: 1cm;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.column {
+  color: #ffffff; 
+  text-decoration: none;
+  flex: 1;
+  min-width: 200px;
+  padding: 90px;
+}
+.column-img {
+    display: block; /* Это убирает лишние отступы под картинкой */
+    margin-bottom: 10px; /* Отступ от картинки до текста */
+    border-radius: 1cm;
+    box-shadow: 20px 10px 8px  #151515;
+}
+.kik {
+   background-color: #232323;
+   border-radius: 2cm;
+}
